@@ -1,0 +1,162 @@
+// //////    ye sabh meray wala code hai made by you 
+ 
+ 
+
+ 
+ <!-- <div class="grid_box">
+
+      <div class="container text-center full-box">
+        <div class="row">
+          <div class="col-1 firstCol navbar-nav me-auto mb-2 mb-lg-0 " >
+
+            
+            <div class="box-1">
+            <a href="https://web.facebook.com/?_rdc=1&_rdr"><img src="./my-pic.png" alt="" width="50px"> <span><p class="name" >Muhammad Hasan</p></span></a> -->
+
+
+            <!-- <img src="" alt="" width="50px"> <span>Muhammad Hasan</span> -->
+            <!-- <img src="" alt="" width="50px"> <span>Muhammad Hasan</span>
+            <img src="" alt="" width="50px"> <span>Muhammad Hasan</span>
+            <img src="" alt="" width="50px"> <span>Muhammad Hasan</span>
+            <img src="" alt="" width="50px"> <span>Muhammad Hasan</span>
+            <img src="" alt="" width="50px"> <span>Muhammad Hasan</span>
+            <img src="" alt="" width="50px"> <span>Muhammad Hasan</span>
+            <img src="" alt="" width="50px"> <span>Muhammad Hasan</span>
+            <img src="" alt="" width="50px"> <span>Muhammad Hasan</span>
+            <img src="" alt="" width="50px"> <span>Muhammad Hasan</span>
+            <img src="" alt="" width="50px"> <span>Muhammad Hasan</span>
+            <img src="" alt="" width="50px"> <span>Muhammad Hasan</span>
+            <img src="" alt="" width="50px"> <span>Muhammad Hasan</span> -->
+            <!-- <img src="" alt="" width="50px"> <span>Muhammad Hasan</span> -->
+            <!-- <div class="li-1"><i class="fa-solid fa-user-group"> </i> <span>Friends </span> </div> -->
+
+          </div>
+          </div>
+          
+                    <!-- <div class="col-9 marginTop-1">
+                         <div class="media d-flex justify-content-around">
+                             <div class="box_1"> <i class="fa-solid fa-business-time"></i> <span><h5 class="social_media">Stories</h5</span></div>
+                                  <div class="box_2"> <i class="fa-brands fa-tiktok"></i> <span><h5 class="social_media">Reels</h5>
+                </span></div>
+                        <div class="box_3"><i class="fa-solid fa-video"></i>  <span><h5 class="social_media">Rooms</h5></span></div>
+          </div>
+                       </div>
+        
+                  <div class="col-1 marginTop">
+            <i class="fa-solid fa-cake-candles"></i><h5>Birthday</h5>
+                </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="container text-center marginTop onlyBoxShadow">
+      <div class="row">
+
+        <h3> Images</h3>
+        <div class="col">
+         
+          <img src="https://avatars.githubusercontent.com/u/66431140?v=4" alt="" width="100px" height="100px">
+          
+        
+          <img src="https://scontent.fkhi4-3.fna.fbcdn.net/v/t39.30808-6/347258889_810071796937102_5811433553380274389_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeF51ZJPHegqiWfhZY8pNkMmdJZuOcJ-ryV0lm45wn6vJVkRtAL2YvBYjZ_X7yNMsEu0Nn1nT0P3pD0oO3-NRV1F&_nc_ohc=PXkDnjusX4gAX-fnKoh&_nc_zt=23&_nc_ht=scontent.fkhi4-3.fna&oh=00_AfCUm7U3G0BmsXpGXG0IQha8xfq7UTJLBMzSEjAKO07wIw&oe=6483A195" alt="" width="100px" height="100px"> 
+        
+
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3aGWpke05-mE8MlbgyQWwqRvWb1WDHEXjf7AltKP1&s" alt="" width="100px" height="100px"> 
+        
+        
+
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7-dH9ZgCczuar18g-fPoVr9-BykN8eUUtgGrJWo68zg&s" alt="" width="100px" height="100px">
+        
+          
+          
+          
+          <img src="https://scontent.fkhi4-4.fna.fbcdn.net/v/t39.30808-6/347255752_2353996654779668_2177081029761225545_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=5cd70e&_nc_eui2=AeGqm-w9lmcmOiSgRTJoys0nalooj0v3j9ZqWiiPS_eP1ktwZXYcDlmXBvnIB4ovFV_ucM63IAUg6bwMv-QBgzv5&_nc_ohc=22BFwvV0Ir0AX-FHikY&_nc_zt=23&_nc_ht=scontent.fkhi4-4.fna&oh=00_AfBn6rj6FrdL01dHb9bMHLjLkCwWQtXrbV924bkVAFETaA&oe=648407C3" alt="" width="100px" height="100px"> 
+                       </div>
+                       <div class="box d-flex">
+                       <img src="./my-pic.png" alt="" width="50px" class="image-post">
+                       <form class="d-flex" role="text">
+                        <input class="form-control me-5 marginTop" type="text" placeholder="What is in you'r Mind?  " aria-label="text">
+                        <button class="btn btn-outline-primary   marginTop
+                        " type="submit">Post</button>
+                      </form>
+                    </div>
+                       <input type="text" width="25px" height="55px">
+            </div>
+      
+      
+      
+       </div> -->
+
+       // //////    ye sabh meray wala code ka end 
+
+
+
+
+       // ye post are kai andar rakhna hai
+
+
+
+        <!-- <div class="postConatiner postInputContainer mt-3">
+                  <div class="d-flex justify-content-between ">
+                      <div class="authorsDetails d-flex align-items-center">
+                          <div class="post-header-container d-flex align-items-center">
+                              <div class="image">
+                                  <img src="https://img.freepik.com/free-vector/isolated-young-handsome-man-different-poses-white-background-illustration_632498-859.jpg?w=740&t=st=1685543404~exp=1685544004~hmac=d07ea3ce3ef8f3935685c31c8166ad233839e12607dfb08424f2e5a129f3d691"
+                                      alt="" class="img-fluid rounded mx-auto d-block">
+                              </div>
+                              <div class="userName-id ms-2">
+                                  <p class="mb-1 userTag" style="color: #868686; font-size: 12px;">
+                                      @${activeUser.firstName}</p>
+                                  <div class="d-flex align-items-center justify-content-center">
+                                      <h5 class="mb-1 username">${activeUser.firstName}</h5>
+                                      <p class="mb-0 ms-2" style="color: #ffc107; font-size: 12px;">1 hour</p>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div>
+                          <div class="dropdown">
+                              <button class="btn btn-secondary dropdown-toggle"
+                                  style="background-color: #282828; border-color: #282828;" type="button"
+                                  data-bs-toggle="dropdown" aria-expanded="false">
+                                  <i class="fa-solid fa-ellipsis-vertical"></i>
+                              </button>
+                              <ul class="dropdown-menu" style="background-color: #282828;">
+                                  <li><a class="dropdown-item">Edit</a></li>
+                                  <li><a class="dropdown-item">Delete</a></li>
+                              </ul>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="postDetails">
+                      <p id="post-text" class="mt-2">${postTextArea.value}</p>
+                  </div>
+                  <div class="postImage-video">
+                      <img src="https://images.unsplash.com/photo-1635016288720-c52507b9a717?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=435&q=80"
+                          alt="" class="img-fluid" style="object-fit: cover; width: 100%; border-radius: 15px;">
+                  </div>
+                  <div class="like-comment-share d-flex justify-content-start align-items-center mt-3">
+                      <i class="fa-solid fa-heart ms-3 fs-5"></i>
+                      <i class="fa-solid fa-comment ms-3 fs-5"></i>
+                      <i class="fa-solid fa-share ms-3 fs-5"></i>
+                  </div>
+                  <div
+                      class="comment-container d-flex align-items-center mt-3 border-top border-secondary-subtle pt-2">
+                      <div class="image">
+                          <img src="https://img.freepik.com/free-vector/isolated-young-handsome-man-different-poses-white-background-illustration_632498-859.jpg?w=740&t=st=1685543404~exp=1685544004~hmac=d07ea3ce3ef8f3935685c31c8166ad233839e12607dfb08424f2e5a129f3d691"
+                              alt="" class="img-fluid rounded mx-auto d-block">
+                      </div>
+                      <div class="search ps-3 " style="width: 100%;">
+                          <div class="input-group" style="width: 100%;">
+                              <input type="text" class="form-control" placeholder="Write your comment"
+                                  aria-label="Example text with button addon" aria-describedby="button-addon1"
+                                  id="comment">
+                              <button class="btn " type="button" id="button-addon1" style="background-color: #222;"><i
+                                      class="fa-solid fa-paper-plane" style="color: #636363;"></i></button>
+                          </div>
+                      </div>
+                  </div>
+              </div> -->
+
+
+              // y

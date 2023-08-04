@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>we chat</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+     <div class="container">
+        <div class="left-side">
+            <div class="header">
+                <div class="userimg">
+                    <img src="./assets/user.png" >
+                </div>
+                <p class="username" style="line-height: 20px;font-size: 15px; font: 1em sans-serif;" >ahs</p>
+                <ul class="nav-icons">
+                    <!-- <li><ion-icon name="scan-circle-outline"></ion-icon></li> -->
+                    <li><ion-icon name="chatbubbles"></ion-icon></li>
+                    <li><ion-icon name="ellipsis-vertical"></ion-icon></li>
+                    <!-- <li><i class="fa-regular fa-message"></i></li> -->
+
+                </ul>
+                
+            </div>
+            <div class="search-chat">
+                <ion-icon name="search-outline"></ion-icon>
+                <input type="text" placeholder="search or start new chat">
+            </div>
+           
+            <div class="chatlist">
+                <!-- <div onclick="selectChat('${fullName}','${email}')" class="block active">
+                    <div class="imgbox">
+                        <img src="./assets/ahsan.jpg" class="cover">
+                    </div>
+                    <div class="details">
+                        <div class="listhead">
+                            <h4>john Doe</h4>
+                            <p class="time">check</p>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+
+        </div>
+        <div class="right-side">
+            <div class="header">
+                <div class="imgtext">
+                    <div class="userimg">
+                        <img src="./assets/ahsan.jpg" class="cover">
+                    </div>
+                    <h4>john Doe <br><span>online</span></h4>
+                </div>
+                <ul class="nav-icons">
+                    <li><ion-icon name="search-outline"></ion-icon></li>
+                    <li><ion-icon name="ellipsis-vertical"></ion-icon></li>
+                    
+                </ul>
+            </div>
+
+            <!-- chat section -->
+            <div class="chatbox">
+                <div class="message">
+                    
+                </div>
+            </div>
+            <button id="logout">logout</button>
+        </div>
+     </div>
+     
+    
+     <script type="module" src="app.js"></script>
+     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
