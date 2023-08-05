@@ -24,7 +24,7 @@ onAuthStateChanged(auth, (user) => {
         getAlluser(user.email)
         console.log(user.email)
     } else {
-        window.location.href = "../login/index.html"    // User is signed out
+        window.location.href = "../register/index.html"    // User is signed out
     }
 });
 
