@@ -187,7 +187,72 @@ body{
     line-height: 1.2em;
     margin-left: 15px;
 }
-.imgtext h4 span{
+.extra{
    font-size: 0.8em;
    color: #555;
 }
+
+/* chat box */
+.chatbox{
+    position: relative;
+    width: 100%;
+    height: calc(100% - 120px);
+    padding: 50px;
+    overflow-y: auto;
+}
+.message{
+    position: relative;
+    display: flex;
+    width: 100%;
+    margin: 5px 0;
+}
+.message p{
+    position: relative;
+    right: 0;
+    text-align: right;
+    max-width: 65%;
+    padding: 12px;
+    background: #dcf8c8;
+    border-radius: 10px;
+}
+.my-msg{
+    justify-content: flex-end;
+}
+.friend-msg{
+    justify-content: flex-start;
+}
+
+.friend-msg p{
+    /* background: #fff; */
+    text-align: left;
+}
+.chat-input{
+    position: relative;
+    width: 100%;
+    height: 60px;
+    background: #f0f0f0;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.chat-input ion-icon{
+   cursor: pointer;
+   font-size: 1.8em;
+   color: #51485c;
+}
+.chat-input ion-icon :nth-child(1){
+    margin-right: 15px;
+}
+.chat-input input{
+    position: relative;
+    width: 90%;
+    margin: 0 20px;
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    font-size: 1em;
+}
+
+

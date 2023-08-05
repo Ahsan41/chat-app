@@ -1,4 +1,4 @@
-import{
+import {
     onAuthStateChanged,
     auth,
     doc,
@@ -8,12 +8,13 @@ import{
     query,
     where,
     getDocs
-}from'../register/firebaseconfig.js'
+} from '../register/firebaseconfig.js'
 
 
 const username = document.querySelector(".username")
 console.log(username)
 onAuthStateChanged(auth, (user) => {
+    console.log(user, "==>> user")
     if (user) {
         // User is signed in, see docs for a list of available properties
         // https://firebase.google.com/docs/reference/js/auth.user
@@ -23,19 +24,21 @@ onAuthStateChanged(auth, (user) => {
         getAlluser(user.email)
         console.log(user.email)
     } else {
-      // User is signed out
+        window.location.href = "../login/index.html"    // User is signed out
     }
-  });
-  
-  async function getUserData(uid){
+});
+
+console.log("awaeen check")
+
+async function getUserData(uid) {
     //   console.log(uid)
-      try {
-          const docRef = doc(db, "users", uid);
-          const docSnap = await getDoc(docRef);
+    try {
+        const docRef = doc(db, "users", uid);
+        const docSnap = await getDoc(docRef);
         //   const{fullName} = docSnap.data()
         if (docSnap.exists()) {
             console.log("Document data:", docSnap.data());
-            const {  fullName , email} = docSnap.data()
+            const { fullName, email } = docSnap.data()
             // username.value = docSnap.data().fullName;
             username.textContent = fullName;
         } else {
@@ -50,6 +53,11 @@ onAuthStateChanged(auth, (user) => {
 // your_js_file.js
 const selectChat = (email, fullName) => {
     console.log(email, fullName);
+    const selectedName = document.querySelector(`#selectedUsername`)
+    const selectedEmail = document.querySelector("#selecteduserEmail")
+    console.log(selectedEmail);
+    selectedName.innerHTML=fullName;
+    selectedEmail.innerHTML=email;
 };
 
 const getAlluser = async (email) => {
@@ -62,7 +70,7 @@ const getAlluser = async (email) => {
         chatlist.innerHTML += `
             <div onclick="selectChat('${email}', '${fullName}')" class="block active">
                 <div class="imgbox">
-                     <img src="./assets/user.png" class="cover">
+                      <img src="./assets/user.png" class="cover">
                 </div>
                 <div class="details">
                     <div class="listhead">
@@ -74,5 +82,17 @@ const getAlluser = async (email) => {
     });
 };
 
-// Remove the following line if you don't need to make selectChat globally available
+// Remove the following line if you don't need to make selectChat globally available;;;;;
 window.selectChat = selectChat;
+
+const msginput = document.querySelector("#msg-input")
+// console.log(msginput)
+
+msginput.addEventListener("keydown", (e) => {
+    // console.log(e.keyCode);
+    if(e.keyCode === 13){
+        console.log(msginput.value);
+        
+    }
+    // console.log(msginput.value)
+})

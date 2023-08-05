@@ -11,7 +11,7 @@
 </head>
 <body>
      <div class="container">
-        <div class="left-side">
+         <div class="left-side">
             <div class="header">
                 <div class="userimg">
                     <img src="./assets/user.png" >
@@ -45,30 +45,41 @@
                 </div> -->
             </div>
 
-        </div>
-        <div class="right-side">
-            <div class="header">
+         </div>
+         <div class="right-side">
+             <div class="header">
                 <div class="imgtext">
                     <div class="userimg">
-                        <img src="./assets/ahsan.jpg" class="cover">
+                        <img src="./assets/avatar.png" class="cover">
                     </div>
-                    <h4>john Doe <br><span>online</span></h4>
+                    <div style="">
+                    <h4 id="selectedUsername">john Doe </h4>
+                    <h4 id="selecteduserEmail" class="extra">jjjjj</h4>
+                   </div>
                 </div>
                 <ul class="nav-icons">
                     <li><ion-icon name="search-outline"></ion-icon></li>
                     <li><ion-icon name="ellipsis-vertical"></ion-icon></li>
                     
                 </ul>
-            </div>
+             </div>
 
-            <!-- chat section -->
-            <div class="chatbox">
-                <div class="message">
-                    
-                </div>
-            </div>
-            <button id="logout">logout</button>
-        </div>
+             <!-- chat section -->
+              <div class="chatbox">
+                    <div class="message my-msg">
+                        <p>hi</p>
+                    </div>
+                    <div class="message friend-msg">
+                        <p>hey</p>
+                    </div>
+               </div>
+               <div class="chat-input">
+                <ion-icon name="happy-outline"></ion-icon>
+                <input id="msg-input" type="text" placeholder="type a message">
+                <ion-icon name="mic"></ion-icon>
+               </div>
+         </div>
+            <!-- <button id="logout">logout</button> -->
      </div>
      
     
