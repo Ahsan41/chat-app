@@ -29,7 +29,7 @@ onAuthStateChanged(auth, (user) => {
         curentloggedinuser=uid
         // console.log(curentloggedinuser)
     } else {
-        window.location.href = "../login/index.html"    // User is signed out
+        window.location.href = "../register/index.html"    // User is signed out
     }
 });
 

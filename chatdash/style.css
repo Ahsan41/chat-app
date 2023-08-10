@@ -1,21 +1,16 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-  body {
+}
+body{
     display: flex;
     justify-content: center;
     align-items: center;
-    max-height: 100vh;
-    background: linear-gradient(
-      #009688 0%,
-      #009688 130px,
-      #d9dbd5 130px,
-      #d9dbd5 100%
-    );
-  }
-  .container {
+    min-height: 100vh;
+    background: linear-gradient(#009688 0%, #009688 130px,#d9dbd5 130px, #d9dbd5 100%);
+}
+.container{
     position: relative;
     width: 1298px;
     max-width: 100%;
@@ -23,74 +18,76 @@
     background: #fff;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.06);
     display: flex;
-  }
-  .container .left-side {
+}
+ .container .left-side {
     position: relative;
     flex: 30%;
     /* background: #f00; */
     height: 100vh;
-  }
-  .container .right-side {
+} 
+.container .right-side{
     position: relative;
     flex: 70%;
-    height: 100vh;
-    background-image: url(./assets/background\ image.jpg);
-  }
-  /* .container .right-side::before {
-    content: "";
+    /* background: #111; */
+}
+.container .right-side::before{
+    content: '';
     position: absolute;
     top: 0;
     width: 100%;
     height: 100%;
     top: 0;
     left: 0;
-    /* background: url("./assets/bobby.jpg"); */
-    /* opacity: 0.06;
-  }  */
-  .header {
-    position: relative;
     width: 100%;
-    height: 60px;
-    background: #ededed;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 15px;
-  }
-  .userimg {
+    height: 100%;
+    /* background: url("./assets/bobby.jpg"); */
+    opacity: 0.06;
+}
+.header{
+   position: relative;
+   width: 100%;
+   height: 60px;
+   background: #ededed;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0 15px;
+}
+.userimg{
     position: relative;
     width: 40px;
     height: 40px;
     overflow: hidden;
     border-radius: 50%;
     cursor: pointer;
-  }
-  /* .userimg img{
-      background-position: center;
-      background-size: cover;
-      overflow: hidden;
-       /* background-position: center; */
-  /* }  */
-  .cover {
+   
+}
+/* .userimg img{
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+     /* background-position: center; */
+/* }  */
+.cover{
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     object-fit: cover;
-  }
-  .nav-icons {
-    display: flex;
-  }
-  .nav-icons li {
+}
+.nav-icons{
+   display: flex;
+}
+.nav-icons li{
     display: flex;
     list-style-type: none;
     cursor: pointer;
-    color: #51485c;
+    color:#51485c;
     font-size: 1.5rem;
     margin-left: 22px;
-  }
-  .search-chat {
+}
+.search-chat{
     position: relative;
     width: 100%;
     height: 50px;
@@ -99,145 +96,137 @@
     justify-content: center;
     align-items: center;
     padding: 0 15px;
-  }
-  .search-chat div {
+} 
+.search-chat div{
     width: 100%;
-    height: 100%;
-  }
-  .search-chat input {
+    height: 100%
+}
+.search-chat input{
     width: 100%;
     outline: none;
     border: none;
     background-color: #fff;
     height: 40px;
-    border-radius: 30px;
+    border-radius:30px;
     padding: 6px;
     font-size: 14px;
     padding-left: 40px;
-  }
-  .search-chat div ion-icon {
+}
+.search-chat div ion-icon{
     position: absolute;
     top: 14px;
     left: 30px;
     font-size: 1.2rem;
-  }
-  .search-chat div input::placeholder {
+}
+.search-chat div input::placeholder{
     color: #bbb;
-  }
-  .chatlist {
+}
+
+
+.chatlist{
     position: relative;
     height: calc(100% - 110px);
     overflow: hidden;
-  }
-  .chatlist .block {
+}
+.chatlist .block{
     position: relative;
     width: 100%;
     display: flex;
     align-items: center;
     padding: 15px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+    border-bottom: 1px solid rgba(0,0,0, 0.06);
     cursor: pointer;
-  }
-  .chatlist .block .active {
+}
+.chatlist .block .active {
     background: #ebebeb;
-  }
-  .chatlist .block:hover {
+}
+.chatlist .block:hover{
     background-color: #f5f5f5;
-  }
-  .chatlist .block .imgbox {
+}
+.chatlist .block .imgbox{
     position: relative;
     min-width: 45px;
     height: 45px;
     overflow: hidden;
     border-radius: 50%;
     margin-right: 10px;
-  }
-  .chatlist .block .details {
+}
+.chatlist .block .details{
     position: relative;
     width: 100%;
-  }
-  
-  .chatlist .block .details .listhead {
+}
+
+.chatlist .block .details .listhead{
     display: flex;
     justify-content: space-between;
     margin-bottom: 5px;
-  }
-  .chatlist .block .details .listhead h4 {
-    font-size: 1.1em;
-    font-weight: 600;
-    color: #111;
-  }
-  .chatlist .block .details .listhead .time {
-    font-size: 0.75em;
-    color: #111;
-  }
-  .imgtext {
+}
+.chatlist .block .details .listhead h4{
+     font-size: 1.1em;
+     font-weight: 600;
+     color: #111;
+}
+.chatlist .block .details .listhead .time{
+   font-size: 0.75em;
+   color: #111;
+}
+.imgtext{
     position: relative;
     color: #fff;
     /* min-width: 20px;
-      height: 20px;
-      border-radius: 50%; */
+    height: 20px;
+    border-radius: 50%; */
     display: flex;
     justify-content: center;
     align-items: center;
     /* font-size: 0.75em; */
     color: #111;
-  }
-  .imgtext h4 {
+}
+.imgtext h4{
     font-weight: 500;
     line-height: 1.2em;
     margin-left: 15px;
-  }
-  .extra {
-    font-size: 0.8em;
-    color: #555;
-  }
-  
-  /* chat box */
-  .chatbox {
+}
+.extra{
+   font-size: 0.8em;
+   color: #555;
+}
+
+/* chat box */
+.chatbox{
     position: relative;
     width: 100%;
     height: calc(100% - 120px);
     padding: 50px;
-    overflow: auto;
-    overflow-y: scroll;
-    flex-direction: column-reverse;
-    display: flex;  
-  }
-  .message {
+    overflow-y: auto;
+}
+.message{
     position: relative;
     display: flex;
     width: 100%;
-    /* margin: 3px 0; */
-  }
-  .message p {
+    margin: 5px 0;
+}
+.message p{
     position: relative;
     right: 0;
     text-align: right;
     max-width: 65%;
     padding: 12px;
     background: #dcf8c8;
-    /* background:  #075e54;    */
     border-radius: 10px;
-  }
-  .my-msg {
+}
+.my-msg{
     justify-content: flex-end;
-  }
-  .friend-msg {
+}
+.friend-msg{
     justify-content: flex-start;
-  }
-  .friend-msg p{
-    background-color:#fff;
-    color: #252424;
+}
+
+.friend-msg p{
+    /* background: #fff; */
     text-align: left;
-  }
-  .time{
-    display: block;
-    /* margin-top: px; */
-    font-size: 0.85em;
-    opacity: 0.5;
-  }
-  .chat-input {
+}
+.chat-input{
     position: relative;
     width: 100%;
     height: 60px;
@@ -246,16 +235,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
-  .chat-input ion-icon {
-    cursor: pointer;
-    font-size: 1.8em;
-    color: #51485c;
-  }
-  .chat-input ion-icon :nth-child(1) {
+}
+.chat-input ion-icon{
+   cursor: pointer;
+   font-size: 1.8em;
+   color: #51485c;
+}
+.chat-input ion-icon :nth-child(1){
     margin-right: 15px;
-  }
-  .chat-input input {
+}
+.chat-input input{
     position: relative;
     width: 90%;
     margin: 0 20px;
@@ -264,27 +253,6 @@
     border: none;
     border-radius: 30px;
     font-size: 1em;
-  }
-  
-  /* hannann  */
-  
-  .userimg_header {
-    display: flex;
-    align-items: center;
-  }
-  .header_icons_div {
-      display: flex;
-      font-size: 30px;
-      justify-content: space-between;
-      background:none;
-      align-items: center;
-  }
-  .dropdown-toggle::after {
-      display: none !important;
-  }
-  .dropdown button{
-      background: transparent;
-      border: none;
-      color: #000;
-      font-size: 20px;
-  }
+}
+
+
