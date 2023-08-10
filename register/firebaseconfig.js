@@ -3,7 +3,7 @@
   
   import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/10.1.0/firebase-auth.js";
   import {
-    getFirestore, collection, addDoc, setDoc, doc, query, where, getDocs, getDoc, deleteDoc, updateDoc
+    getFirestore, collection, addDoc, setDoc, doc, query, where, getDocs, getDoc, deleteDoc, updateDoc , serverTimestamp , onSnapshot ,orderBy,
   } from "https://www.gstatic.com/firebasejs/10.1.0/firebase-firestore.js";
   
 //   import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, onAuthStateChanged, signOut, } from "https://www.gstatic.com/firebasejs/9.23.0/firebase-auth.js";
@@ -59,5 +59,9 @@ const firebaseConfig = {
       uploadBytesResumable,
       getDownloadURL,
       deleteDoc,
-      updateDoc
+      updateDoc,
+      serverTimestamp,
+      onSnapshot,
+      orderBy,
   };
+

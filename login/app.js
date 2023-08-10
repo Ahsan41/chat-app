@@ -22,7 +22,7 @@ function loginHandler() {
     // Signed in 
     const user = userCredential.user;
     if(user){ 
-    window.location.href = '../chatdash/index.html'
+    window.location.href = '../chatdash/chat.html'
   }  
 })
   .catch((error) => {
@@ -31,3 +31,4 @@ function loginHandler() {
     console.log(errorMessage,errorCode)
   });
 }
+
