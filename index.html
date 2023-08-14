@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link rel="stylesheet" href="./register/style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="registerForm">
+        <h1>Register</h1>
+        <div
+          style="display: flex; justify-content: center; align-items: center"
+        >
+          <div class="image-container">
+            <img id="image" src="./chatdash/assets/user.png" alt="User Image" />
+            <input type="file" id="fileInput" class="hidden-input" />
+          </div>
+        </div>
+        <div class="input-group flex-nowrap form">
+          <p class="form">Full Name</p>
+          <input
+            type="text"
+            id="name"
+            class="form-control"
+            placeholder="Username"
+            aria-label="Username"
+            aria-describedby="addon-wrapping"
+          />
+        </div>
+        <div class="input-group flex-nowrap form">
+          <p class="form">Email</p>
+          <input
+            type="text"
+            id="email"
+            class="form-control"
+            placeholder="email"
+            aria-label="Username"
+            aria-describedby="addon-wrapping"
+          />
+        </div>
+        <div class="input-group flex-nowrap form">
+          <p class="form">Password</p>
+          <input
+            type="password"
+            id="password"
+            class="form-control"
+            placeholder="password"
+            aria-label="Username"
+            aria-describedby="addon-wrapping"
+          />
+        </div>
+        <p>
+          Already have an accoount <a href="./login/index.html">click here</a>
+        </p>
+        <div class="form">
+          <button id="form">Submit</button>
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="./register/app.js"></script>
+    <script>
+      const imageContainer = document.querySelector(".image-container");
+      const fileInput = document.querySelector("#fileInput");
+
+      fileInput.addEventListener("change", (event) => {
+        const selectedFile = event.target.files[0];
+
+        if (selectedFile) {
+          const objectUrl = URL.createObjectURL(selectedFile);
+          image.src = objectUrl || "./chatdash/assets/user.png";
+        }
+      });
+
+      // Function to switch image using logical OR (||) operator
+      // function switchImage() {
+      //   image.src = (image.src === defaultImage) ? alternateImage : defaultImage;
+      // }
+    </script>
+  </body>
+</html>
